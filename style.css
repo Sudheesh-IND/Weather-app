@@ -1,0 +1,82 @@
+body{
+    background: url(https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_1280.jpg);
+  
+    width: 100%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    height: auto;
+}
+
+
+.input-place{
+    width: 65%;
+    height: 30px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.792);
+    border-radius: 2rem;
+    border: 3px solid rgb(19, 188, 226);
+    text-align: center;
+    
+}
+.input-place:focus{
+    outline: none;
+}
+
+.input-button{
+    width: 100px;
+    height: 30px;
+    border-radius: 2rem;
+    margin-top: 25px;
+    border: none;
+    color: black;
+    background-color: rgb(19, 188, 226);
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.input-button:hover{
+   background-color: aliceblue;
+   border: 3px solid rgb(19, 188, 226);
+}
+
+
+.location-weather{
+   background-color: #8fdfff98;
+   transition: 0.5s;
+}
+
+i{
+    font-size: 1.5rem;
+    margin: 5px;
+}
+span{
+    font-size: 1.5rem;
+}
+.weather-portion{
+    background-color: #8fdfff98;
+    transition: 0.5s;
+}
+.weather-portion:hover{
+    /* box-shadow: 0 0 60px rgba(0, 0, 0, 0.409); */
+    background-color: #8fdfff;
+    /* transition-delay: 0.5s ease-in-out; */
+    transform: scale(97%);
+}
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+@media screen and (max-width: 501px) {
+    body {
+     height: 100%;
+    }
+  }
+
+#animeLocation:hover,.location-weather:hover{
+    background-color: #8fdfff;
+    transform: scale(97%);
+}
+  
