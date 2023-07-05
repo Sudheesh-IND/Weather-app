@@ -15,7 +15,7 @@ function showPosition(position) {
   var longitude=position.coords.longitude
     
     console.log(position)
-    fetch(`http://api.weatherapi.com/v1/current.json?key=dc457e9dadd24a4aa8c115625232806&q=${lattitude},${longitude}`)
+    fetch(`https://api.weatherapi.com/v1/current.json?key=dc457e9dadd24a4aa8c115625232806&q=${lattitude},${longitude}`)
     .then(data=>data.json())
     .then(weather=>locationWeather(weather))
 }
@@ -71,7 +71,7 @@ function locationWeather(weather){
 function searchCity(){
   var cityName=citySearch.value
      
-     fetch(`http://api.weatherapi.com/v1/current.json?key=dc457e9dadd24a4aa8c115625232806&q=${cityName}`)
+     fetch(`https://api.weatherapi.com/v1/current.json?key=dc457e9dadd24a4aa8c115625232806&q=${cityName}`)
 .then(data=>data.json())
 .then(weather=>searchWeather(weather))
 }
