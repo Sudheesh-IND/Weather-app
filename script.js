@@ -34,7 +34,7 @@ function locationWeather(weather){
    locationStatus.innerHTML=htmlStatus
 
   if(weather.current.condition.text=='Mist'){
-    mainPortion.style.backgroundImage="url('https://quincemedia.com/wp-content/uploads/2018/07/mist-trees-mountain-winter.gif')";
+    mainPortion.style.backgroundImage="url('https://media3.giphy.com/media/xUA7aRkZwuLP7YVSEw/source.gif')";
    }else if(weather.current.condition.text=='Partly cloudy'){
     mainPortion.style.backgroundImage="url('https://i.pinimg.com/originals/d7/e7/81/d7e781b32269a8a82b500c1a9dc97733.gif')";
 
@@ -116,7 +116,7 @@ console.log(weather)
    
     
   if(weather.current.condition.text=='Mist'){
-      mainPortion.style.backgroundImage="url('https://quincemedia.com/wp-content/uploads/2018/07/mist-trees-mountain-winter.gif')";
+      mainPortion.style.backgroundImage="url('https://media3.giphy.com/media/xUA7aRkZwuLP7YVSEw/source.gif')";
      }else if(weather.current.condition.text=='Partly cloudy'){
       mainPortion.style.backgroundImage="url('https://i.pinimg.com/originals/d7/e7/81/d7e781b32269a8a82b500c1a9dc97733.gif')";
 
